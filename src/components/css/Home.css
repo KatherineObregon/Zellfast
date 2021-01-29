@@ -9,7 +9,8 @@
   justify-content: center;
   margin-left: 100px;
   margin-right: 100px;
-  max-width: 1500px;
+  max-width: 100%;
+  background-color: orange;
 }
 
 .home_row {
