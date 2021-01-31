@@ -60,7 +60,7 @@ function NavbarView(props) {
               </div>
             </div>
           </div>
-          <input type="text" className="form-control" size="50" name="query" id="query"></input>
+          <input type="text" className="form-control" size="100" name="query" id="query"></input>
           <input type="text" name="category" id="category" value="book" hidden></input>
           <div className="input-group-append">
             <button type="submit" className="btn btn-warning">
@@ -70,7 +70,7 @@ function NavbarView(props) {
         </div>
       </form> 
       {/* <!-- Search Bar Ends --> */}
-      <ul className="navbar-nav">
+      <ul className="navbar-nav nav-position" >
         {/* <!-- Preffered Language Starts --> */}
         <li className="nav-item dropdown px-2">
           <a className="nav-link" href="#" id="prefLanguageDropdown" role="button" data-toggle="dropdown"

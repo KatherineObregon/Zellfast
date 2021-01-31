@@ -1,4 +1,5 @@
 import React from 'react'
+import "../css/Home.css"
 
 function HomePageProductView() {
     return (
@@ -9,18 +10,16 @@ function HomePageProductView() {
         <div className="col-lg-3">
           <div className="card my-2 my-lg-0">
             <div className="card-body d-flex justify-content-center">
-              <a href="#"><img src="assets/img/product_images/product02.png" alt="product image 01" className="img-fluid"/></a>
+              <a href="#"><img src="assets/img/product_images/sport.png" alt="product image 01" className="category_image" /></a>
             </div>
             <div className="card-footer bg-transparent py-0">
               <div className="row my-1">
-                <div className="col-md-6">
-                  <p className="font-weight-bold text-danger">
-                    <i className="fas fa-rupee-sign"></i> 150.00
+                <div className="col-md-12 center">
+                  <p className="font-weight-bold text-danger ">
+                   Deportes
                   </p>
                 </div>
-                <div class="col-md-6">
-                  <a href="#" className="btn btn-success btn-sm btn-block">Buy</a>
-                </div>
+               
               </div>
             </div>
           </div>
@@ -29,18 +28,16 @@ function HomePageProductView() {
         <div className="col-lg-3">
           <div className="card my-2 my-lg-0">
             <div className="card-body d-flex justify-content-center">
-              <a href="#"><img src="assets/img/product_images/product03.png" alt="product image 01" className="img-fluid"/></a>
+              <a href="#"><img src="assets/img/product_images/desktop.png" alt="product image 01" className="category_image"/></a>
             </div>
             <div className="card-footer bg-transparent py-0">
               <div className="row my-1">
-                <div className="col-md-6">
-                  <p className="font-weight-bold text-danger">
-                    <i className="fas fa-rupee-sign"></i> 650.00
+                <div className="col-md-12">
+                  <p className="font-weight-bold text-danger center">
+                  Computación
                   </p>
                 </div>
-                <div className="col-md-6">
-                  <a href="#" className="btn btn-success btn-sm btn-block">Buy</a>
-                </div>
+              
               </div>
             </div>
           </div>
@@ -49,38 +46,34 @@ function HomePageProductView() {
         <div className="col-lg-3">
           <div className="card my-2 my-lg-0">
             <div className="card-body d-flex justify-content-center">
-              <a href="#"><img src="assets/img/product_images/product03.png" alt="product image 01" className="img-fluid"/></a>
+              <a href="#"><img src="assets/img/product_images/smartphone.png" alt="product image 01" className="category_image"/></a>
             </div>
             <div className="card-footer bg-transparent py-0">
               <div className="row my-1">
-                <div className="col-md-6">
-                  <p className="font-weight-bold text-danger">
-                    <i className="fas fa-rupee-sign"></i> 550.00
+                <div className="col-md-12">
+                  <p className="font-weight-bold text-danger center">
+                     Celulares
                   </p>
                 </div>
-                <div className="col-md-6">
-                  <a href="#" className="btn btn-success btn-sm btn-block">Buy</a>
-                </div>
+              
               </div>
             </div>
           </div>
         </div>
 
-        <div clclassNameass="col-lg-3">
+        <div className="col-lg-3">
           <div className="card my-2 my-lg-0">
             <div className="card-body d-flex justify-content-center">
-              <a href="#"><img src="assets/img/product_images/product02.png" alt="product image 01" className="img-fluid"/></a>
+              <a href="#"><img src="assets/img/product_images/game-console.png" alt="product image 01" className="category_image"/></a>
             </div>
             <div className="card-footer bg-transparent py-0">
               <div className="row my-1">
-                <div className="col-md-6">
-                  <p className="font-weight-bold text-danger">
-                    <i className="fas fa-rupee-sign"></i> 750.00
+                <div className="col-md-12">
+                  <p className="font-weight-bold text-danger center">
+                   Videojuegos y Consolas
                   </p>
                 </div>
-                <div className="col-md-6">
-                  <a href="#" className="btn btn-success btn-sm btn-block">Buy</a>
-                </div>
+               
               </div>
             </div>
           </div>
@@ -94,18 +87,16 @@ function HomePageProductView() {
         <div className="col-lg-3">
           <div className="card my-2 my-lg-0">
             <div className="card-body d-flex justify-content-center">
-              <a href="#"><img src="assets/img/product_images/product02.png" alt="product image 01" className="img-fluid"/></a>
+              <a href="#"><img src="assets/img/product_images/tshirt.png" alt="product image 01" className="category_image"/></a>
             </div>
             <div className="card-footer bg-transparent py-0">
               <div className="row my-1">
-                <div className="col-md-6">
-                  <p className="font-weight-bold text-danger">
-                    <i className="fas fa-rupee-sign"></i> 150.00
+                <div className="col-md-12">
+                  <p className="font-weight-bold text-danger center">
+                    Ropa
                   </p>
                 </div>
-                <div className="col-md-6">
-                  <a href="#" className="btn btn-success btn-sm btn-block">Buy</a>
-                </div>
+              
               </div>
             </div>
           </div>
@@ -114,18 +105,16 @@ function HomePageProductView() {
         <div className="col-lg-3">
           <div className="card my-2 my-lg-0">
             <div className="card-body d-flex justify-content-center">
-              <a href="#"><img src="assets/img/product_images/product03.png" alt="product image 01" className="img-fluid"/></a>
+              <a href="#"><img src="assets/img/product_images/car.png" alt="product image 01" className="category_image"/></a>
             </div>
             <div className="card-footer bg-transparent py-0">
               <div className="row my-1">
-                <div className="col-md-6">
-                  <p className="font-weight-bold text-danger">
-                    <i className="fas fa-rupee-sign"></i> 650.00
+                <div className="col-md-12">
+                  <p className="font-weight-bold text-danger center">
+                   Autos y partes
                   </p>
                 </div>
-                <div className="col-md-6">
-                  <a href="#" className="btn btn-success btn-sm btn-block">Buy</a>
-                </div>
+               
               </div>
             </div>
           </div>
@@ -134,18 +123,16 @@ function HomePageProductView() {
         <div className="col-lg-3">
           <div className="card my-2 my-lg-0">
             <div className="card-body d-flex justify-content-center">
-              <a href="#"><img src="assets/img/product_images/product03.png" alt="product image 01" className="img-fluid"/></a>
+              <a href="#"><img src="assets/img/product_images/foot.png" alt="product image 01" className="category_image"/></a>
             </div>
             <div className="card-footer bg-transparent py-0">
               <div className="row my-1">
-                <div className="col-md-6">
-                  <p className="font-weight-bold text-danger">
-                    <i className="fas fa-rupee-sign"></i> 550.00
+                <div className="col-md-12">
+                  <p className="font-weight-bold text-danger center">
+                    Mascotas
                   </p>
                 </div>
-                <div className="col-md-6">
-                  <a href="#" className="btn btn-success btn-sm btn-block">Buy</a>
-                </div>
+              
               </div>
             </div>
           </div>
@@ -154,18 +141,16 @@ function HomePageProductView() {
         <div className="col-lg-3">
           <div className="card my-2 my-lg-0">
             <div className="card-body d-flex justify-content-center">
-              <a href="#"><img src="assets/img/product_images/product02.png" alt="product image 01" className="img-fluid"/></a>
+              <a href="#"><img src="assets/img/product_images/camara.png" alt="product image 01" className="category_image"/></a>
             </div>
             <div className="card-footer bg-transparent py-0">
               <div className="row my-1">
-                <div className="col-md-6">
-                  <p className="font-weight-bold text-danger">
-                    <i className="fas fa-rupee-sign"></i> 750.00
+                <div className="col-md-12">
+                  <p className="font-weight-bold text-danger center">
+                   Camara, Audio y Video
                   </p>
                 </div>
-                <div className="col-md-6">
-                  <a href="#" className="btn btn-success btn-sm btn-block">Buy</a>
-                </div>
+   
               </div>
             </div>
           </div>
@@ -173,6 +158,8 @@ function HomePageProductView() {
       </div> 
       {/* <!-- Prouct Row Ends --> */}
     </div>
+    
+
        </React.Fragment>
     )
 }

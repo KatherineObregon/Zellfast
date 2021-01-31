@@ -1,26 +1,28 @@
 import React from 'react';
-import Header from "./components/Header";
-import "./components/css/App.css";
-import Home from "./components/Home"
-import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter as Router, Switch, Route } from "react-router-dom"
-import { Link } from "react-router-dom"
+
 import Login from "./Login.js"
 import LandingPage from "./components/layout/LandingPage";
 
 function App(){
     return <div className="app">
-    <LandingPage/>
-    {/* <Header />
-    <Home />
-      
+    
     <Router>
+      <Switch>
         <Route path="/login">
           <Login></Login>
+        </Route>  
+        <Route path="/">
+          <LandingPage/>          
         </Route>
-      </Router> */}
+        <Route path="/list">
+          
+        </Route>
 
+      </Switch>
+    </Router>  
+    
     </div>
     
 }
